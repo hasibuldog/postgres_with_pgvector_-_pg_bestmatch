@@ -9,10 +9,12 @@ A simple docker config for postgres with pgvector and pg_bestmatch extension. Th
 
 The connection details and database name can be set within the docker-compose.yml files, the defaults are set to the following.
 
-  - POSTGRES_USER=bulldogg
-  - POSTGRES_PASSWORD=21101314
-  - POSTGRES_DB=studybase
+  - POSTGRES_USER= your_user_name
+  - POSTGRES_PASSWORD= your_password
+  - POSTGRES_DB= your_db_name
 
 
   ##### Needless to say, this is not meant to be for production use.
   ##### Thanks to this repo: https://github.com/stupid-programmer/docker_postgres_vector_extension
+
+  
