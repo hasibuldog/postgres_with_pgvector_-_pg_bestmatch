@@ -13,8 +13,8 @@ services:
       # - ./postgres/0-vector-extension.sh:/docker-entrypoint-initdb.d/0-vector-extension.sh
 
     environment:
-      - POSTGRES_USER=bulldogg
-      - POSTGRES_PASSWORD=21101314
-      - POSTGRES_DB=studybase
+      - POSTGRES_USER=your_user_name
+      - POSTGRES_PASSWORD=your_password
+      - POSTGRES_DB=your_db_name
 volumes:
   postgres_data:
